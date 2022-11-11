@@ -1,0 +1,35 @@
+h5{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: lightgoldenrodyellow 1px 1px 30px;
+
+}
+
+body{
+    background: linear-gradient(90deg,blue,black,black,blue);
+    background-size: 200%;
+    animation: bgChange 6s linear infinite alternate;
+}
+
+@keyframes bgChange {
+    0%{background-position: left;}
+    100%{background-position: right;}
+}
+
+#emptyDiv{
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: rgb(193, 193, 193) 2px 2px 100px;
+    padding: 30px;
+    max-width: fit-content;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+th,td{
+    padding-left: 30px;
+    padding-right: 30px;
+}
