@@ -3,6 +3,7 @@ h5{
     color: white;
     font-size: 40px;
     text-shadow: lightgoldenrodyellow 1px 1px 30px;
+
 }
 
 body{
@@ -22,14 +23,14 @@ body{
     box-shadow: rgb(193, 193, 193) 2px 2px 100px;
     padding: 30px;
     max-width: fit-content;
-    position: relative;
+    position: absolute;
+    top: 55%;
     left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 50px;
+    transform: translate(-50%,-50%);
 }
 
 th,td{
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 19px;
+    text-transform: uppercase!important;
 }
